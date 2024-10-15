@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Leaf Lab offers an innovative plant identification tool using image recognition technology. Explore our herbarium collection, learn plant classification, and contribute to global conservation efforts with interactive tutorials and resources.">
+	<meta name="keywords" content="Leaf Lab, plant identification, herbarium, plant recognition, botanical database, plant classification, plant preservation, image recognition, botany tutorials, conservation, plant species, flora, global plant collection">
+    <meta name="author" content="Anthomy Lau">
+    <title>Plant Identifier - Leaf Lab</title>
+    <link rel="stylesheet" type="text/css" href="../leaflab/styles/style.css">
+</head>
+
+<body id="identifypage">
+    <!-- Header Section -->
+    <header>
+        <a href="index.html"><img src="../leaflab/images/leaflablogo.svg" alt="Leaf Lab Logo" class="logo"></a>
+        
+        <!-- Navigation Menu -->
+        <nav class="nav">  
+            <input class="side-menu" type="checkbox" id="side-menu">  
+            <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>  
+            <ul class="navlinks">  
+                <li><a href="index.html">Home</a></li>  
+                <li><a href="classify.html">Classification</a></li>  
+                <li class="dropdown">  
+                    <a class="dropbtn">Herbarium</a>  
+                    <ul class="dropdown-content">  
+                        <li><a href="tutorial.html">Tutorial</a></li>  
+                        <li><a href="tools.html">Tools</a></li>  
+                        <li><a href="care.html">Care</a></li>  
+                    </ul>  
+                </li>  
+                <li><a href="identify.html">Plant Identifier</a></li>
+                <li><a href="contribute.html">Contribute</a></li>  
+                <li><a href="enquiry.html">Enquiry</a></li>  
+            </ul>  
+        </nav>
+        
+        <!-- Login Button -->
+        <a class="login" href="registration.html"><img src="../leaflab/images/login.svg" alt="Log In Button" class="loginicon"></a>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h1>Plant Identifier</h1>
+        <br>
+        <p>Easily identify plants by uploading a photo. Our tool uses image recognition to provide you with the plant's name and details, helping you learn about various species in just a few clicks.</p>
+
+        <!-- Section 1: Image Upload -->
+        <div id="pageflex">
+            <section id= "imageupload">
+                <h2>Upload Plant Image</h2>
+                <p>Click the "Identify Plant" button to analyse the image.</p>
+
+                <div id="flexcontainer">
+                    <figure id="identifyimgcontainer">
+                        <img src="../leaflab/images/identify.jpeg" alt="Person Taking Photo of Plant" id="identifyimg">
+                    </figure>
+                    
+                    <!-- Form action to be added in Assignement 2-->
+                    <form id="uploadform" action="" method="POST" enctype="multipart/form-data">  
+                        <label for="plantimage" id="uploadbutton">  
+                            <img src="../leaflab/images/upload.png" alt="Upload Icon" id="uploadicon"> Upload Image  
+                        </label>  
+                        <input type="file" id="plantimage" name="plantimage" accept="image/*" required>  
+                        <input type="submit" value="Identify Plant" id="identifybutton">  
+                    </form>
+                </div>
+
+                <p id="uploadnote">Note: Please ensure photo of the plant is clear, avoid being too far or too close.</p>
+            </section>
+        
+            <!-- Example Output Section, initially hidden -->
+            <section id="exampleoutput">
+                    <h2>Example of Identified Plant</h2>
+                    
+                    <figure>
+                        <img src="../leaflab/images/rosagallica.jpg" alt="Herbarium Specimen" id="roseimg">
+                        <figcaption>Photo of Rosa Gallica</figcaption>
+                    </figure>
+
+                    <dl>
+                        <dt><strong>Scientific Name: </strong></dt>
+                            <dd><em>Rosa gallica</em></dd>
+                        <dt><strong>Common Name: </strong></dt>
+                            <dd><em>French Rose</em></dd>
+                    </dl>
+            </section>
+        </div>
+        
+        <!-- Conclusion Section -->
+        <section class="conclusion">  
+            <h2>Conclusion</h2>  
+                <aside>
+                    <h3>Fun Fact</h3>
+                    <ol>
+                        <li><em>Rosa gallica</em> or French rose was one of the earliest rose species to be cultivated from its origins in central Europe.</li>
+                        <li>First domesticated by the Greeks and Romans and later used in Medieval gardens.</li>
+                        <li>Wild plants usually have double-corollas, which make the flowers very showy</li>
+                    </ol>
+                </aside>
+            <div class="conclusiontext">
+                <p>Identifying plants has never been easier! With our user-friendly image upload tool, you can quickly learn about various species and enhance your botanical knowledge. We encourage you to explore our other features, contribute your own findings, and become an integral part of our plant conservation community.</p>
+                <p>Thank you for using Leaf Lab. Together, we can make a difference in understanding and preserving our natural world.</p>
+            </div>
+        </section>
+
+
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="fcontainer">
+            <div class="frow">
+                <!-- Navigation Links -->
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="classify.html">Classification</a></li>
+                        <li><a href="tutorial.html">Tutorial</a></li>
+                        <li><a href="identify.html">Plant Identifier</a></li>
+                        <li><a href="contribute.html">Contribute</a></li>
+                        <li><a href="enquiry.html">Enquiry</a></li>
+                    </ul>
+                </div>
+                <!-- About Us Links -->
+                <div class="footer-col">
+                    <h4>about us</h4>
+                    <ul>
+                        <li><a href="profilepages.html">profile pages</a></li>
+                        <li><a href="enhancement1.html">website enhancements</a></li>
+                        <li><a href="acknowledgements.html">Acknowledgements</a></li>
+                    </ul>
+                </div>
+                <!-- Contact Information -->
+                <div class="footer-col">
+                    <h4>contact us</h4>
+                    <p><strong>Enquiry Form:</strong></p>
+                    <p><a href="enquiry.html">Fill in here</a></p>
+                    <br>
+                    <p><strong>Phone Number:</strong></p>
+                    <p><a href="tel:0862421079">(086) 2421079</a></p>
+                    <br>
+                    <p><strong>Email:</strong></p>
+                    <p><a href="mailto:104384180@students.swinburne.edu.my">104384180@students.swinburne.edu.my</a></p>
+                </div>
+                <!-- Social Media Links -->
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/swinburnesarawak" target="_blank"><img src="../leaflab/images/facebook.svg" alt="Facebook Logo" class="sociallogo"></a>
+                        <a href="https://instagram.com/swinburnesarawak/" target="_blank"><img src="../leaflab/images/instagram.svg" alt="Instagram Logo" class="sociallogo"></a>
+                        <a href="https://www.youtube.com/user/swinburnesarawakweb?feature=CAQQwRs=" target="_blank"><img src="../leaflab/images/youtube.svg" alt="YouTube Logo" class="sociallogo"></a>
+                        <a href="https://www.linkedin.com/school/swinburne-university-of-technology-sarawak-campus/posts/?feedView=all" target="_blank"><img src="../leaflab/images/linkedin.svg" alt="Linkedin Logo" class="sociallogo"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Links and Copyright -->
+        <p class="footerlink"><a href="https://youtube.com" target="_blank">Website Showcase</a></p>
+        <p class="footertext">&copy; 2024 Leaf Lab. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

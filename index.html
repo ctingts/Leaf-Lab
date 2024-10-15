@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Leaf Lab: Explore and contribute to a global plant specimen collection. Learn plant classification, preservation, and more with our tutorials.">
+    <meta name="keywords" content="Leaf Lab, herbarium, plant classification, plant preservation, plant database, botany, plant specimen, tutorials">
+    <meta name="author" content="Clement Ting Tiew Song">
+    <title>Leaf Lab - Herbarium Specimen Collection</title>
+    <link rel="stylesheet" type="text/css" href="../leaflab/styles/style.css">
+</head>
+
+<body id="indexpage">
+    <!-- Header Section -->
+    <header>
+        <a href="index.html"><img src="../leaflab/images/leaflablogo.svg" alt="Leaf Lab Logo" class="logo"></a>
+        
+        <!-- Navigation Menu -->
+        <nav class="nav">  
+            <input class="side-menu" type="checkbox" id="side-menu">  
+            <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>  
+            <ul class="navlinks">  
+                <li><a href="index.html">Home</a></li>  
+                <li><a href="classify.html">Classification</a></li>  
+                <li class="dropdown">  
+                    <a class="dropbtn">Herbarium</a>  
+                    <ul class="dropdown-content">  
+                        <li><a href="tutorial.html">Tutorial</a></li>  
+                        <li><a href="tools.html">Tools</a></li>  
+                        <li><a href="care.html">Care</a></li>  
+                    </ul>  
+                </li>  
+                <li><a href="identify.html">Plant Identifier</a></li>  
+                <li><a href="contribute.html">Contribute</a></li>  
+                <li><a href="enquiry.html">Enquiry</a></li>  
+            </ul>  
+        </nav>
+        
+        <!-- Login Button -->
+        <a class="login" href="registration.html"><img src="../leaflab/images/login.svg" alt="Log In Button" class="loginicon"></a>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="herotext">
+                <h1 class="title">Welcome to Leaf Lab</h1>
+                <p class="tagline">Preserving Nature, One Leaf at a Time.</p>
+                <a href="#aboutus"><button class="learn">Learn How</button></a>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="aboutus">
+            <div class="column left">
+                <h2>WHO ARE WE?</h2>
+                <hr>
+                <br>
+                <p>At Leaf Lab, we guide you through the fascinating process of collecting and preserving plant specimens. Whether you're a botanist, student, or nature enthusiast, you'll find everything you need to turn fresh leaves into preserved history.</p>
+                <ul class="features">
+                    <li><a href="classify.html"><button>Learn About Plant Classification</button></a></li>
+                    <li><a href="tutorial.html"><button>Herbarium Tutorials</button></a></li>
+                    <li><a href="contribute.html"><button>Contribute to Our Plant Database</button></a></li>
+                </ul>
+            </div>
+            <div class="column right">
+                <img src="../leaflab/images/herbarium.jpeg" alt="herbarium" class="herbariumimg">
+            </div>
+        </section>
+
+        <!-- Plant Finder Section -->
+        <section id="plantfinder">
+            <div class="column left2">
+                <img src="../leaflab/images/plantfinder.jpeg" alt="plantfinder" class="plantfinderimg">
+            </div>
+            <div class="column right2">
+                <h2>NEED SOME HELP IDENTIFYING PLANTS?</h2>
+                <hr>
+                <br>
+                <p>Our AI-assisted tool lets you easily identify plants by uploading a photo to our website. It quickly analyses the image, providing the plant's name, care tips, and growth details. Perfect for gardeners and nature lovers, this tool offers fast, accurate insights with just one click.</p>
+                <a href="identify.html"><button class="trynow">Try Now</button></a>
+            </div>
+        </section>
+
+        <!-- User Reviews Section -->
+        <h2 class="userrevh">WHAT OUR USERS SAY</h2>
+        <section class="wrapper">
+            <div class="outer">
+                <!-- User Review Card 1 -->
+                <div class="card" id="card1">
+                    <span class="tooltiptext">Resume the autoscroll by moving your mouse away.</span>
+                    <div class="content">
+                        <div class="img">
+                            <img src="../leaflab/images/person1.jfif">
+                        </div>
+                        <div class="details">
+                            <p class="detailsp">"Leaf Lab has been an invaluable resource for my students. The tutorials are straightforward, and the step-by-step guides make the process of specimen preservation easy to understand. I highly recommend it to anyone looking to study botany hands-on."
+                            </p>
+                            <br>
+                            <br>
+                            <span class="name">Dr. Emily Winters</span>
+                            <p>Botanist, University Professor</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- User Review Card 2 -->
+                <div class="card" id="card2">
+                    <span class="tooltiptext">Resume the autoscroll by moving your mouse away.</span>
+                    <div class="content">
+                        <div class="img">
+                            <img src="../leaflab/images/person2.jfif">
+                        </div>
+                        <div class="details">
+                            <p class="detailsp">"As someone working in plant conservation, I've found Leaf Lab's resources incredibly useful. The section on tools and care has been especially helpful in ensuring our herbarium specimens last for decades. It's a must-visit for anyone in the field."
+                            </p>
+                            <br>
+                            <br>
+                            <span class="name">Lucas Rivera</span>
+                            <p>Plant Conservation Specialist</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- User Review Card 3 -->
+                <div class="card" id="card3">
+                    <span class="tooltiptext">Resume the autoscroll by moving your mouse away.</span>
+                    <div class="content">
+                        <div class="img">
+                            <img src="../leaflab/images/person3.jfif">
+                        </div>
+                        <div class="details">
+                            <p class="detailsp">"I was completely new to the world of herbarium specimens, but Leaf Lab made it so accessible! The website is beautifully designed and easy to navigate. I was able to collect and preserve my first plant specimen after just a few tutorials!"
+                            </p>
+                            <br>
+                            <br>
+                            <span class="name">Eliot Brown</span>
+                            <p>Environmental Science Student</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- User Review Card 4 -->
+                <div class="card" id="card4">
+                    <span class="tooltiptext">Resume the autoscroll by moving your mouse away.</span>
+                    <div class="content">
+                        <div class="img">
+                            <img src="../leaflab/images/person4.jfif">
+                        </div>
+                        <div class="details">
+                            <p class="detailsp">"I've incorporated Leaf Lab into my curriculum, and my students love it. The information is clear, and the layout is engaging. It's been a great tool for teaching plant taxonomy and the importance of biodiversity preservation."
+                            </p>
+                            <br>
+                            <br>
+                            <span class="name">Sophie Adams</span>
+                            <p>High School Science Teacher</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- User Review Card 5 -->
+                <div class="card" id="card5">
+                    <span class="tooltiptext">Resume the autoscroll by moving your mouse away.</span>
+                    <div class="content">
+                        <div class="img">
+                            <img src="../leaflab/images/person5.jfif">
+                        </div>
+                        <div class="details">
+                            <p class="detailsp">"I'm not a professional botanist, but I love collecting plants from my garden. Leaf Lab has shown me how to turn them into something lasting and beautiful. The classification page has been a great way to learn about the plants I've been growing for years."
+                            </p>
+                            <br>
+                            <br>
+                            <span class="name">Priya Menon</span>
+                            <p>Garden Enthusiast</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Join the Community Section -->
+        <section class="community">
+            <h2>JOIN OUR COMMUNITY</h2>
+            <hr>
+            <p>Do you love plants and want to contribute to the preservation of biodiversity? Join the Leaf Lab community today! By sharing your own herbarium specimens and plant discoveries, you can help expand our database and contribute to plant research worldwide.</p>
+
+            <div class="contribution-container">
+                <!-- How You Can Contribute -->
+                <div class="contribute">
+                    <h3>How You Can Contribute</h3>
+                    <ul>
+                        <li><strong>Share Your Specimens:</strong> Upload photos of fresh plant leaves and preserved herbarium specimens.</li>
+                        <li><strong>Identify New Species:</strong> Use our plant classification tools to help identify rare or unknown species and submit your findings to our database.</li>
+                        <li><strong>Collaborate with Experts:</strong> Connect with botanists and plant enthusiasts to learn more about specimen preservation techniques and species identification.</li>
+                    </ul>
+                </div>
+
+                <!-- Steps to Get Started -->
+                <div class="steps">
+                    <h3>Steps to Get Started</h3>
+                    <ol>
+                        <li>Register for a Free Account to join the Leaf Lab community.</li>
+                        <li>Submit your plant specimens using the Contribution Form.</li>
+                        <li>Become a part of our growing community and collaborate on global plant research projects!</li>
+                    </ol>
+                </div>
+            </div>
+
+            <a href="registration.html" class="cta-button">Join Now</a>
+            <p class="ctatagline">Together, we can document and preserve the world's plant biodiversity for future generations. Start contributing today!</p>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="fcontainer">
+            <div class="frow">
+                <!-- Navigation Links -->
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="classify.html">Classification</a></li>
+                        <li><a href="tutorial.html">Tutorial</a></li>
+                        <li><a href="identify.html">Plant Identifier</a></li>
+                        <li><a href="contribute.html">Contribute</a></li>
+                        <li><a href="enquiry.html">Enquiry</a></li>
+                    </ul>
+                </div>
+                <!-- About Us Links -->
+                <div class="footer-col">
+                    <h4>about us</h4>
+                    <ul>
+                        <li><a href="profilepages.html">profile pages</a></li>
+                        <li><a href="enhancement1.html">website enhancements</a></li>
+                        <li><a href="acknowledgements.html">Acknowledgements</a></li>
+                    </ul>
+                </div>
+                <!-- Contact Information -->
+                <div class="footer-col">
+                    <h4>contact us</h4>
+                    <p><strong>Enquiry Form:</strong></p>
+                    <p><a href="enquiry.html">Fill in here</a></p>
+                    <br>
+                    <p><strong>Phone Number:</strong></p>
+                    <p><a href="tel:0862421079">(086) 2421079</a></p>
+                    <br>
+                    <p><strong>Email:</strong></p>
+                    <p><a href="mailto:104384180@students.swinburne.edu.my">104384180@students.swinburne.edu.my</a></p>
+                </div>
+                <!-- Social Media Links -->
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/swinburnesarawak" target="_blank"><img src="../leaflab/images/facebook.svg" alt="Facebook Logo" class="sociallogo"></a>
+                        <a href="https://instagram.com/swinburnesarawak/" target="_blank"><img src="../leaflab/images/instagram.svg" alt="Instagram Logo" class="sociallogo"></a>
+                        <a href="https://www.youtube.com/user/swinburnesarawakweb?feature=CAQQwRs=" target="_blank"><img src="../leaflab/images/youtube.svg" alt="YouTube Logo" class="sociallogo"></a>
+                        <a href="https://www.linkedin.com/school/swinburne-university-of-technology-sarawak-campus/posts/?feedView=all" target="_blank"><img src="../leaflab/images/linkedin.svg" alt="Linkedin Logo" class="sociallogo"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Links and Copyright -->
+        <p class="footerlink"><a href="https://youtube.com" target="_blank">Website Showcase</a></p>
+        <p class="footertext">&copy; 2024 Leaf Lab. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
